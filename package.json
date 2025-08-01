@@ -1,6 +1,6 @@
 {
-  "homepage": "thiemeleci.github.io/elitecar/",
-  "name": "car-rental",
+  "homepage": "https://thiemeleci.github.io/elitecar/",
+  "name": "elitecar",
   "private": true,
   "version": "0.0.0",
   "type": "module",
