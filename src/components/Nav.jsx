@@ -12,14 +12,14 @@ const Nav = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to='/' className="flex items-center space-x-2 text-gray-800">
+          <Link to='/https://thiemeleci.github.io/elitecar/' className="flex items-center space-x-2 text-gray-800">
             <Car className="h-8 w-8" />
             <span className="text-xl font-bold">EliteCar</span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to='/' className="text-gray-700 hover:text-blue-700 transition-colors">Início</Link>
+            <Link to='/https://thiemeleci.github.io/elitecar/' className="text-gray-700 hover:text-blue-700 transition-colors">Início</Link>
             <Link to='#' className="text-gray-700 hover:text-blue-700 transition-colors">Carros</Link>
             <Link to='#' className="text-gray-700 hover:text-blue-700 transition-colors">Sobre</Link>
             <Link to='#' className="text-gray-700 hover:text-blue-700 transition-colors">Contato</Link>

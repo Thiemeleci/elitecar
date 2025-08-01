@@ -18,14 +18,14 @@ const Register = () => {
         {/* Logo */}
         <div className="text-center mb-6">
           <div className="text-white text-3xl font-bold flex justify-center items-center gap-2">
-           <Car className='w-10 h-10' /> <span>AutoRent</span>
+           <Car className='w-10 h-10' /> <span>EliteCar</span>
           </div>
         </div>
       <div className="w-full max-w-md bg-gray-100 rounded-lg shadow-lg p-8 pt-5 reveal-x">
 
         {/* Heading */}
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-1">Create Account</h2>
-        <p className="text-center text-gray-500 mb-6">Join thousands of happy customers</p>
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-1">Criar conta</h2>
+        <p className="text-center text-gray-500 mb-6">Junte-se a milhares de clientes satisfeitos</p>
 
         {/* Form */}
         <form>
@@ -35,7 +35,7 @@ const Register = () => {
               <User className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
               <input
                 type="text"
-                placeholder="First Name"
+                placeholder="Primeiro nome"
                 className="w-full bg-white pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -43,7 +43,7 @@ const Register = () => {
               <User className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
               <input
                 type="text"
-                placeholder="Last Name"
+                placeholder="Sobrenome"
                 className="w-full bg-white pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -52,12 +52,12 @@ const Register = () => {
 
             {/* Email  */}
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+            <label className="block text-sm font-medium text-gray-700 mb-2">Endereço de e-mail</label>
             <div className="relative">
               <Mail className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="Digite seu e-mail"
                 className="w-full pl-10 pr-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -65,12 +65,12 @@ const Register = () => {
 
             {/* Password */}
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-2">Password</label>
+            <label className="block text-sm font-medium text-gray-700 mb-2">Senha</label>
             <div className="relative">
               <Lock className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
               <input
                 type="password"
-                placeholder="Enter your password"
+                placeholder="Digite sua senha"
                 className="w-full pl-10 pr-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -79,23 +79,23 @@ const Register = () => {
           <div className="flex sm:flex-row flex-col sm:items-center sm:gap-0 gap-2 justify-between text-sm mb-6">
             <label className="flex items-center gap-1 cursor-pointer">
               <input type="checkbox" className="cursor-pointer appearance-none h-4 w-4 border border-gray-300 rounded-sm checked:bg-blue-500 checked:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-400" />
-              <span className='text-base'>Remember me</span>
+              <span className='text-base'>Lembre-me</span>
             </label>
-            <a href="#" className="text-blue-500 hover:underline">Forgot password?</a>
+            <a href="#" className="text-blue-500 hover:underline">Esqueceu a senha?</a>
           </div>
 
           <button
             type="submit"
             className="w-full cursor-pointer bg-blue-500 hover:bg-blue-700 text-white py-2 rounded-md font-medium transition duration-200"
           >
-            Sign In
+            Criar conta
           </button>
         </form>
 
         {/* Divider */}
         <div className="flex items-center justify-between gap-6 my-6">
           <span className="border-t border-gray-300 w-full"></span>
-          <span className="text-sm text-gray-400 w-full">Or continue with</span>
+          <span className="text-sm text-gray-400 w-full">Ou continuar com</span>
           <span className="border-t border-gray-300 w-full"></span>
         </div>
 
@@ -111,8 +111,8 @@ const Register = () => {
 
         {/* Sign up link */}
         <p className="text-center text-sm text-gray-600 mt-6">
-          Don't have an account?{' '}
-          <a href="/login" className="text-blue-500 hover:underline">Log in</a>
+          Já possui uma conta?{' '}
+          <a href="/login" className="text-blue-500 hover:underline">Entrar</a>
         </p>
       </div>
     </div>

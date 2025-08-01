@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       <Layout />
       <Routes>
-        <Route path='/' index element={<Home />} />
+        <Route path='/https://thiemeleci.github.io/elitecar/' index element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
       </Routes>
